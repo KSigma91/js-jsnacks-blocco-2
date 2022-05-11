@@ -3,15 +3,19 @@
 // qui saranno visualizzati i numeri
 const myNum = [];
 
-// chiedo all'utente di inserire i numeri
-let numUser = prompt("Inserisci il numero: ");
-
+const totUser = 0;
+debugger;
 // faccio la somma dei numeri inseriti
 do {
+    // chiedo all'utente di inserire i numeri
+    let numUser = parseInt(prompt("Inserisci il numero: "));
 
     myNum.push(numUser);
-    console.log(myNum);
-    
-} while (myNum < 50) {
 
-}
+    totUser += parseInt(numUser);
+
+    console.log(myNum);
+
+} while (totUser < 50)
+
+// let result = document.getElementById("mio_id").value;
